@@ -303,3 +303,7 @@ figcaption {
 .cv .cvhead .sub { margin: 8px 0 0; }
 .cv1 { grid-template-rows: auto 1fr; }
 @media print { .cv .cvhead { margin-bottom: 8px; } .cv .cvhead h1 { font-size: 38px; } .cv .cvhead .sub { margin-top: 4px; } }
+
+/* resume paragraphs */
+.cv .job p.jd { margin: 4px 0 0; }
+.cv .aw { padding: 0; } .cv .aw p { margin: 0 0 6px; }
