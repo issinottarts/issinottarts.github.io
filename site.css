@@ -223,3 +223,15 @@ body.home .door figure { width: 100%; }
   .bar nav a { margin: 0; font-size: 11px; }
   .sitefoot { flex-wrap: wrap; gap: 8px 20px; }
 }
+
+/* phone: compact one-line header, shorter home images */
+@media screen and (max-width: 800px) {
+  .bar { display: block; padding: 10px 16px 8px; background: #fff; }
+  .bar .home { display: block; margin-bottom: 8px; font-size: 11px; }
+  .bar nav { display: flex; justify-content: space-between; gap: 0; flex-wrap: nowrap; }
+  .bar nav a { font-size: 10px; letter-spacing: .06em; white-space: nowrap; }
+  body.home .door figure img { aspect-ratio: 16 / 10; }
+  body.home .homehero { padding-top: 28px; }
+  body.home .homehero h1 { font-size: clamp(44px, 14vw, 64px); }
+  body.home .doors { row-gap: 22px; }
+}
