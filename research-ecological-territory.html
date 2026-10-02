@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Research: Ecological Territory | Isabelle Stratton</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body class="site res">
+<div class="bar"><a class="home" href="index.html">I. Stratton</a><nav><a href="research.html" class="on">Design Research</a><a href="studio.html">Studio Art</a><a href="resume.html">Resume</a><a href="contact.html">Contact</a></nav></div>
+<header class="pagehead catpage"><h1>Ecological Territory</h1><p>Land and watershed scale: putting an economic value on what natural land provides across a county.</p></header><nav class="subnav"><a href="research-ecological-territory.html" class="on">Ecological Territory</a><a href="research-urban-systems.html">Urban Systems</a><a href="research-building-systems.html">Building Systems</a><a href="research-material-systems.html">Material Systems</a></nav><section class="project" id="p1"><article class="page spread wide">
+  <div class="txt">
+    <div class="num">01</div>
+    <h2>Hillsborough EcoValuation Tool</h2>
+    <dl class="meta"><dt>Year</dt><dd>2025–2026</dd><dt>Type</dt><dd>GIS decision-support tool</dd><dt>Location</dt><dd>Hillsborough County, Florida</dd><dt>Second author</dt><dd>Dr. Kotryna Klizentyte, University of Florida: literature review for the valuation calculations</dd><dt>Role</dt><dd>GIS analysis, toolbox and web app development, documentation</dd><dt>Tools</dt><dd>ArcGIS Pro, ArcPy, Arcade, ArcGIS Experience Builder</dd></dl>
+    <div class="copy"><p class="first">A parcel-scale tool that puts a dollar value on what natural land does for a community, such as holding floodwater and storing carbon.</p><p class="">Land managers weighing conservation acquisitions rarely see the economic value of ecosystem services at the moment of decision. The tool adapts the U.S. EPA H2O / EnviroAtlas methodology to Hillsborough County and estimates four services for every parcel: flood water retention, usable air, usable water and carbon sequestration.</p><p class="">Land cover, soils, tree canopy and other environmental layers are intersected with parcel boundaries, so each parcel resolves into ecosystem types with acreages and per-service values. Each is compared across current and alternative land-cover scenarios, one fully developed and one restored.</p><p class="">The analysis runs as a scripted ArcGIS Pro toolbox in Python. A configuration table drives data sources and publishing, so annual refreshes need no code changes, and a dry-run mode previews every publish. Results are delivered through a web application where selecting a parcel updates its land-use makeup and a chart of service values by scenario. Cached vector tiles keep a map of more than 500,000 parcels responsive.</p><p class=""><strong>Authorship:</strong> I am first author, with Dr. Kotryna Klizentyte (University of Florida) as second author, who carried out the literature review behind the valuation calculations.</p><p class=""><strong>My contribution:</strong> I built the analysis pipeline and ArcGIS Pro toolbox and delivered the results through the web application. I also wrote the operations guide and parcel report templates that let County staff refresh the data and produce reports on their own.</p></div>
+  </div>
+  <figure class="hero mapfig"><div class="mapstage" style="--ar:2820/1680"><img src="images/hb-swipe-final3.jpg" alt="Countywide ecosystem service value, current (left) and fully developed (right)"><span class="mlab" style="left:25.1%">Current</span><span class="mlab" style="left:55.6%">Developed</span></div><figcaption>Countywide value, current conditions (left) vs. fully developed scenario (right)</figcaption></figure>
+</article>
+<div class="page sheet L-1"><figure class=""><img src="images/hb-services.jpg" alt="Ecosystem service layers in the web application, shown by parcel"><figcaption>Ecosystem service layers in the web application, shown by parcel</figcaption></figure></div>
+<div class="page sheet L-1"><figure class=""><img src="images/hb-scenarios.jpg" alt="Annual ecosystem service value under three land-cover scenarios"><figcaption>Annual ecosystem service value under three land-cover scenarios</figcaption></figure></div>
+<div class="page sheet L-1"><figure class=""><img src="images/hb-app.jpg" alt="The Parcel EcoValuation web application: selecting a parcel updates its makeup and value charts"><figcaption>The Parcel EcoValuation web application: selecting a parcel updates its makeup and value charts</figcaption></figure></div></section>
+
+<footer class="sitefoot"><span>Isabelle Stratton</span><span><a href="mailto:isabellecstratton@gmail.com">isabellecstratton@gmail.com</a> &middot; <a href="https://www.instagram.com/artbyissi/" target="_blank" rel="noopener">Instagram</a> &middot; <a href="https://www.linkedin.com/in/isabellestratton" target="_blank" rel="noopener">LinkedIn</a></span></footer>
+</body>
+</html>
