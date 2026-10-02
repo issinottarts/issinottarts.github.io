@@ -179,3 +179,7 @@ body.art .pagehead { padding-left: 14px; padding-right: 14px; }
 body.home .doors { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 body.home .door { min-width: 0; }
 body.home .door figure { width: 100%; }
+
+.dlbar { margin: 0; padding: 18px var(--gutter) 0; text-align: right; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-weight: 500; }
+.dlbar a { border-bottom: 1px solid var(--ink); padding-bottom: 2px; }
+@media print { .sitefoot { display: none; } }
