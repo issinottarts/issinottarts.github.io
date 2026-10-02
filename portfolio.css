@@ -297,3 +297,9 @@ figcaption {
 .cv2 { grid-template-columns: 1fr 1fr; align-content: start; }
 @media print { .cv { padding: 0; height: 7.5in; } .cv1 aside figure img { max-height: 2.6in; width: auto; max-width: 100%; } .cv h1 { font-size: 42px; } .cv .sub { margin: 8px 0 16px; font-size: 11px; } .cv h2 { margin: 16px 0 7px; padding-top: 6px; font-size: 10px; } .cv .ed { font-size: 12px; margin-bottom: 8px; } .cv .ed i { font-size: 10.5px; } .cv .sk { font-size: 10.5px; margin-bottom: 6px; } .cv .sk b { font-size: 9.5px; } .cv .job { font-size: 11px; margin-bottom: 11px; } .cv .job .row.it { font-size: 10.5px; } .cv .job li { margin-bottom: 2px; } .cv .aw { font-size: 12px; } .cv .aw li { margin-bottom: 7px; } .cv2 { column-gap: .5in; } }
 @media screen and (max-width: 800px) { .cv, .cv2 { grid-template-columns: 1fr; row-gap: 24px; } }
+
+/* resume: name and contact sit in the top-left corner above both columns */
+.cv .cvhead { grid-column: 1 / -1; margin-bottom: 18px; }
+.cv .cvhead .sub { margin: 8px 0 0; }
+.cv1 { grid-template-rows: auto 1fr; }
+@media print { .cv .cvhead { margin-bottom: 8px; } .cv .cvhead h1 { font-size: 38px; } .cv .cvhead .sub { margin-top: 4px; } }
