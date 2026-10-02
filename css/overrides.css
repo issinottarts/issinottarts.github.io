@@ -1,3 +1,0 @@
-/* Replaces behavior the Squarespace runtime used to provide. */
-img { visibility: visible !important; opacity: 1 !important; }
-[data-animation-role], .preFlight { opacity: 1 !important; transform: none !important; }
