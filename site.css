@@ -235,3 +235,6 @@ body.home .door figure { width: 100%; }
   body.home .homehero h1 { font-size: clamp(44px, 14vw, 64px); }
   body.home .doors { row-gap: 22px; }
 }
+
+.meta dd a { border-bottom: 1px solid var(--ink); }
+.meta dd a:hover { opacity: .7; }
