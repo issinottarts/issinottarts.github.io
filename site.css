@@ -238,3 +238,7 @@ body.home .door figure { width: 100%; }
 
 .meta dd a { border-bottom: 1px solid var(--ink); }
 .meta dd a:hover { opacity: .7; }
+
+/* site typeface */
+:root { --font: "Lato", "Helvetica Neue", Arial, sans-serif; }
+h1, h2, .door h2, .cat h2 { font-weight: 900; }
