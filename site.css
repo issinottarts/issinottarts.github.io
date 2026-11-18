@@ -54,6 +54,9 @@
 
 /* resume page: sits on the page itself, not inside a project */
 body.resumep .project { margin-top: 0; padding-top: clamp(24px, 4vw, 56px); }
+/* the resume is two print pages, but on screen it should read as one continuous page: a normal section gap, not the wide gap between portfolio pages */
+body.resumep .project .page + .page { margin-top: clamp(20px, 2.5vw, 32px); }
+body.resumep .cv1 { grid-template-rows: auto auto; padding-bottom: 0; }
 body.art .spread.tall .hero img { max-height: 80vh; object-fit: contain; }
 
 @media screen and (max-width: 800px) {
